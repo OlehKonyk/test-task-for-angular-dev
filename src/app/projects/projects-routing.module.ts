@@ -7,7 +7,7 @@ const routes: Routes = [
   {
     path: '',
     component: ProjectsListComponent,
-    // canActivate: [HasAccessTokenGuard]
+    canActivate: [HasAccessTokenGuard],
   },
 ];
 
