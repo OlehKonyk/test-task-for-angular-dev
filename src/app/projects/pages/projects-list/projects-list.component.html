@@ -72,3 +72,14 @@
     </div>
   </footer>
 </div>
+<section class="weather-json section">
+  <div class="container weather-json__container">
+    <h2 class="weather-json__title">Weather JSON:</h2>
+    <pre class="weather-json__code">{{ weatherData | json }}</pre>
+  </div>
+</section>
+<section class="username-demo section">
+  <div class="container username-demo__container">
+    <p class="username-demo__text">Welcome message: {{ 'Hello, dear' | username }}</p>
+  </div>
+</section>
